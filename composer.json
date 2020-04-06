@@ -3,23 +3,23 @@
     "type": "library",
     "description": "Create command line php applications using symfony/console",
     "keywords": ["console", "cli", "symfony"],
-    "homepage": "https://github.com/duncan3dc/console",
+    "homepage": "https://github.com/netesy/console",
     "license": "Apache-2.0",
     "authors": [{
         "name": "Netesy Emmanuel",
-        "email": "git@duncanc.co.uk",
-        "homepage": "https://github.com/duncan3dc",
+        "email": "netesy1@gmail.com",
+        "homepage": "https://github.com/netesy",
         "role": "Developer"
     }],
     "require": {
         "duncan3dc/symfony-climate": "^1.0",
-        "nunomaduro/collision": "^2.1 | ^3.0 | ^4.2",
-        "stecman/symfony-console-completion": "^0.10",
-        "symfony/console": "^5.0",
-        "symfony/event-dispatcher": "^5.0",
-        "symfony/filesystem": "^5.0",
-        "symfony/finder": "^5.0",
-        "symfony/lock": "^5.0",
+        "nunomaduro/collision": "^4.2",
+        "stecman/symfony-console-completion": "^0.11",
+        "symfony/console": "^5.1",
+        "symfony/event-dispatcher": "^5.1",
+        "symfony/filesystem": "^5.1",
+        "symfony/finder": "^5.1",
+        "symfony/lock": "^5.1",
         "php": "^7.2"
     },
     "require-dev": {
@@ -33,7 +33,7 @@
         "phpunit/phpunit": "^8.0"
     },
     "autoload": {
-        "psr-4": {"duncan3dc\\Console\\": "src/"}
+        "psr-4": {"netesy\\Console\\": "src/"}
     },
     "autoload-dev": {
         "files": ["tests/functions.php"],
