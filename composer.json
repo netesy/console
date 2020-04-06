@@ -13,7 +13,7 @@
     }],
     "require": {
         "duncan3dc/symfony-climate": "^1.0",
-        "nunomaduro/collision": "^2.1 || ^3.0",
+        "nunomaduro/collision": "^2.1 | ^3.0 | ^4.2",
         "stecman/symfony-console-completion": "^0.10",
         "symfony/console": "^5.0",
         "symfony/event-dispatcher": "^5.0",
